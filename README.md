@@ -1,8 +1,56 @@
+
+## About
+Prueba técnica desarrollador Laravel
+
+
+Objetivos y Propósito:
+
+Proporcionar acceso equitativo y conveniente a la educación corporativa.
+
+Mejorar la eficiencia y productividad del personal.
+
+Fomentar el aprendizaje continuo en las organizaciones.
+
+Impulsar la retención y desarrollo efectivo del talento interno.
+
+Facilitar la enseñanza y el aprendizaje eficaz mediante herramientas interactivas.
+
+Ofrecer la oportunidad de generar ingresos adicionales a través de la venta de cursos a audiencias externas.
+
+- MOOC ()
+- LMS (Learning management system)
+
+
+
+# Development
+
+## Instalación
+Paso a paso para instalación y despliegue de prueba técnica
+  
+Servidores
+- Xampp https://www.apachefriends.org/es/index.html
+- Wamp https://www.wampserver.com/en/
+
+### Requerimientos
+- PHP 8.2
+- Basic PHP extensions for laravel https://laravel.com/docs/10.x/deployment#server-requirements
+  
+### Entornos
+copiar contenido de .env.example
+crear archivo .env y pegar contenido 
+
+
+For test
+- APP_ENV=testing
+
+
+#### Branches
+- Master: `master`
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
@@ -28,34 +76,6 @@ Laravel has the most extensive and thorough [documentation](https://laravel.com/
 You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
 
 If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
-
-## Laravel Sponsors
-
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
-
-### Premium Partners
-
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
 
 ## Security Vulnerabilities
 
