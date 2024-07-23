@@ -1,3 +1,4 @@
+![amazon Logo](https://github.com/copgADSI/technical_test/blob/master/public/img/logos/amazon.png)
 
 
 ## Instalación
