@@ -27,3 +27,24 @@
 .text-info {
     color: #007bff !important;
 }
+
+.form-control{
+    border: 1px solid !important;
+    border-color: gray !important;
+   /*  background-image: none !important; */
+}
+
+.was-validated .form-control:valid,
+.form-control.is-valid {
+    border: 1px solid !important;
+    border-color: gray !important;
+    background-image: none !important;
+}
+
+.was-validated .form-control:invalid,
+.form-control.is-invalid {
+    // default booststrap styles
+    border: 1px solid red !important;
+    border-color: red !important;
+    background-image: url('~bootstrap-icons/icons/check-circle-fill.svg') !important;
+}

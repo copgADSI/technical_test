@@ -39,30 +39,42 @@ class AuthTest extends TestCase
         ]);
     }
 
-
     /**
-     * Test that a user can't register
+     * Test that a user cannot register with invalid data
      */
-    public function testRegisterUserFail(): void
+    public function testRegisterUserFailsWithInvalidData(): void
     {
-
         $randomPassword = \Str::random(10);
 
         $user = User::factory()->make([
-            'terms' => false
+            'terms' => true
         ])->toArray();
 
         $form = [
             'name' => $user['name'],
             'email' => $user['email'],
             'password' => $randomPassword,
-            'password_confirmation' => $randomPassword,
-            'terms' => false
+            'password_confirmation' => 'differentPassword',
+            'terms' => true
         ];
 
         $response = $this->post(route('auth.register', $form));
+        $response->assertStatus(302);
         $this->assertDatabaseMissing('users', [
-            'name' => $user['name'],
+            'email' => $user['email'],
+        ]);
+
+        $form = [
+            'name' => '',
+            'email' => $user['email'],
+            'password' => $randomPassword,
+            'password_confirmation' => $randomPassword,
+            'terms' => true
+        ];
+
+        $response = $this->post(route('auth.register', $form));
+        $response->assertStatus(302);
+        $this->assertDatabaseMissing('users', [
             'email' => $user['email'],
         ]);
     }

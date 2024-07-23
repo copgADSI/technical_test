@@ -1,6 +1,9 @@
 
 ![Laravel Logo](https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg)
 
+## Clonar proyecto
+1. ```bash
+    git@github.com:copgADSI/technical_test.git
 
 ## Instalación
 Paso a paso para instalación y despliegue de prueba técnica
@@ -37,7 +40,11 @@ Paso a paso para instalación y despliegue de prueba técnica
     ```bash
     npm run build
   
-## Levantar servidores
+### Entornos
+copiar contenido de .env.example
+crear archivo .env y pegar contenido 
+
+## Ejercutar servidores de desarrollo 
 
 1. **Laravel**
     ```bash
@@ -54,10 +61,6 @@ Paso a paso para instalación y despliegue de prueba técnica
 ### Requerimientos
 - PHP 8.2
 - Basic PHP extensions for laravel https://laravel.com/docs/10.x/deployment#server-requirements
-  
-### Entornos
-copiar contenido de .env.example
-crear archivo .env y pegar contenido 
 
 
 
