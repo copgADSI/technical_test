@@ -1,19 +1,20 @@
 import axios from "axios"
 import { User } from "../interfaces/user"
 
-async function register(user: User) : Promise<void>
-{
+async function register(user: User): Promise<void> {
     try {
         const { data } = await axios.post('/auth/register', user)
         return data
-
     } catch (error) {
-        console.error(error)
+        if (error.response) {
+            throw error.response.data;
+        }
+        throw error;
     }
 }
 
 
-async function verifyEmail(code: string) : Promise<void>{
+async function verifyEmail(code: string): Promise<void> {
     try {
         const { data } = await axios.post('/auth/verify-email', { code })
         return data
