@@ -1,5 +1,5 @@
 
-![Laravel Logo](https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg)
+![Laravel Logo](https://github.com/copgADSI/technical_test/blob/master/public/img/logos/form.png)
 
 ## Clonar proyecto
 1. ```bash
