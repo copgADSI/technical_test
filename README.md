@@ -5,13 +5,25 @@ Paso a paso para instalación y despliegue de prueba técnica
 
 1. **Instalar Composer**
 
-    ```bash composer install```
-    1.2 **Generar llaves**
-    ```bash php artisan key:generate```
-    1.3 **Publicar enlace simbólico**
-    ```bash php artisan storage:link```
-    1.4 **Correr migraciones**
-    ```bash php artisan migrate --seed```
+    ```bash 
+    composer install
+
+2. **Generar llaves**
+
+    ```bash 
+    php artisan key:generate
+3. **Publicar enlace simbólico**
+
+    ```bash 
+    php artisan storage:link
+4. **Correr migraciones**
+
+    ```bash 
+    php artisan migrate --seed
+
+5. **Ejecutar tests**
+    ```bash
+    php artisan test 
 
     
 
