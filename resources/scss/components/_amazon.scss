@@ -1,0 +1,29 @@
+.amazon-button {
+    background-color: $button-color;
+    border: 1px solid $button-border-color;
+    border-radius: 3px;
+    color: #111;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 29px;
+    margin: 0;
+    padding: 0 10px;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+
+    &:hover {
+        background-color: $button-hover-color;
+    }
+
+    &:active {
+        background-color: darken($button-color, 10%);
+    }
+}
+
+
+.text-info {
+    color: #007bff !important;
+}
