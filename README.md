@@ -3,7 +3,7 @@
 
 ## Clonar proyecto
 1. ```bash
-    git@github.com:copgADSI/technical_test.git
+    git clone git@github.com:copgADSI/technical_test.git
 
 ## Instalación
 Paso a paso para instalación y despliegue de prueba técnica
